@@ -16,3 +16,5 @@ Tryndamere
 Jayce
 
 Rumble
+
+cho'gath
