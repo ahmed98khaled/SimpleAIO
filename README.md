@@ -18,3 +18,9 @@ Jayce
 Rumble
 
 cho'gath
+
+Urgot
+
+Kayle
+
+
