@@ -172,7 +172,7 @@ namespace SimpleAIO.Champions{
                     ComboLogic();
                     break;
                 case OrbwalkerMode.Harass:
-                   // HarassLogic();
+                    HarassLogic();
                     break;
                 case OrbwalkerMode.LaneClear:
                     break;
