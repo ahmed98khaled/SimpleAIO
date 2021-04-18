@@ -29,8 +29,8 @@ namespace SimpleAIO.Champions{
             AA = new Spell(SpellSlot.Unknown,250f);
 
             //Targeting input
-            Q.SetSkillshot(.5f,12f * 2 * (float)Math.PI / 180,float.MaxValue,false,SpellType.Cone);
-            EQ.SetSkillshot(.5f, 12f * 2 * (float)Math.PI / 180, float.MaxValue, false, SpellType.Cone);
+            Q.SetSkillshot(.5f,12f ,float.MaxValue,false,SpellType.Line);
+            EQ.SetSkillshot(.5f, 12f , float.MaxValue, false, SpellType.Line);
             E.SetSkillshot(0,12f,float.MaxValue,false,SpellType.Line);
 
             R.SetSkillshot(.25f,10,500,false,SpellType.Line);
