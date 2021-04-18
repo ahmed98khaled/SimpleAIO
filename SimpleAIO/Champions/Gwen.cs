@@ -25,7 +25,7 @@ namespace SimpleAIO.Champions{
             E = new Spell(SpellSlot.E ,400f);  
             R = new Spell(SpellSlot.R, 1200f);
             R2 = new Spell(SpellSlot.R, 1200f);
-            EQ = new Spell(SpellSlot.Q, 800f);
+            EQ = new Spell(SpellSlot.Q, 750f);
             AA = new Spell(SpellSlot.Unknown,250f);
 
             //Targeting input
