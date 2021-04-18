@@ -112,7 +112,7 @@ namespace SimpleAIO.Champions{
             {
                 E.Cast(targetE.Position);
             }
-            if (mainMenu["Combo"].GetValue<MenuBool>("EQuse").Enabled && targetEQ.IsValidTarget() && inputEQ.Hitchance >= HitChance.High && E.IsReady() && Q.IsReady() && !Q.IsInRange(targetQ))
+            if (mainMenu["Combo"].GetValue<MenuBool>("EQuse").Enabled && targetEQ.IsValidTarget() && inputEQ.Hitchance >= HitChance.High && E.IsReady() && Q.IsReady() && !Q.IsInRange(targetEQ))
             {
                 if ((mainMenu["Combo"].GetValue<MenuBool>("EQfull").Enabled && fullstackQ) || !mainMenu["Combo"].GetValue<MenuBool>("EQfull").Enabled)
                 {
@@ -142,7 +142,7 @@ namespace SimpleAIO.Champions{
 
             if (mainMenu["Harass"].GetValue<MenuSlider>("mana%").Value <= GameObjects.Player.ManaPercent)
            {
-                if (mainMenu["Harass"].GetValue<MenuBool>("EQuse").Enabled && targetEQ.IsValidTarget() && inputEQ.Hitchance >= HitChance.High && E.IsReady() && Q.IsReady() && !Q.IsInRange(targetQ))
+                if (mainMenu["Harass"].GetValue<MenuBool>("EQuse").Enabled && targetEQ.IsValidTarget() && inputEQ.Hitchance >= HitChance.High && E.IsReady() && Q.IsReady() && !Q.IsInRange(targetEQ))
                 {
                     if ((mainMenu["Harass"].GetValue<MenuBool>("EQfull").Enabled && fullstackQ) || !mainMenu["Combo"].GetValue<MenuBool>("EQfull").Enabled)
                     {
