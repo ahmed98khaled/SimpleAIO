@@ -138,7 +138,7 @@ namespace SimpleAIO.Champions{
             if (mainMenu["Combo"].GetValue<MenuBool>("Q4use").Enabled && Q.IsReady() && targetQ4.IsValidTarget() && inputQ4.Hitchance >= HitChance.VeryHigh && E2.IsReady())
             {
 		E2.Cast(inputQ4.CastPosition);
-                Q2.Cast(inputQ4.CastPosition);
+                Q4.Cast(inputQ4.CastPosition);
                 
 
             }
