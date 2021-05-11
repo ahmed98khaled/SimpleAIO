@@ -23,6 +23,12 @@ Urgot
 
 Kayle
 
-Gwen(Beta)
+Gwen
 
 Anivia
+
+Taliyah
+
+Reksai
+
+GP(credit to AramDetFull)
