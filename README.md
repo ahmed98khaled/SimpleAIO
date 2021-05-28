@@ -32,3 +32,5 @@ Taliyah
 Reksai
 
 GP(credit to AramDetFull)
+
+updated for 11.11
