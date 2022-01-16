@@ -31,6 +31,6 @@ Taliyah
 
 Reksai
 
-GP(credit to AramDetFull)
+GP
 
-updated for 11.11
+MF & mundo & ryze & wukong & trundle
